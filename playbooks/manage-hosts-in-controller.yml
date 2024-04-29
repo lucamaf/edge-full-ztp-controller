@@ -32,7 +32,7 @@
         controller_inventories:
           - name: "edge-{{ mac_address }}"
             description: "Inventory containing just device edge-{{ mac_address }}"
-            organization: "<YOUR_ORG>"
+            organization: "LMF"
             state: present
 
     - name: Create dedicated inventory
